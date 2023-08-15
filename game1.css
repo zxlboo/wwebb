@@ -1,0 +1,61 @@
+html {
+  font-size: 62.5%;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 1.6rem;
+  margin-bottom: 0;
+  padding-top: 50px;
+  height: 100vh;
+  background-color: purple;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.container {
+  width: 50%;
+  height: 350px;
+  background-color: transparent;
+  border: 4px solid white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  overflow: hidden;
+}
+
+.button {
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 40px;
+  width: 50px;
+  display: flex;
+  margin-right: 1px;
+  margin-top: 10px;
+  padding-top: 7px;
+}
+
+input {
+  border-radius: 10px;
+  height: 30px;
+  width: 150px;
+}
+
+.dum {
+  display: flex;
+  justify-content: start;
+}
+
+body {
+  background-image: url(pattern.webp);
+}
+
+p {
+  width: 100px;
+}
